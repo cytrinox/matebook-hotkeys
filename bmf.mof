@@ -1,0 +1,149 @@
+[WMI, Dynamic, Provider("WmiProv"), Locale("MS\\0x409"), Description("MyWMIEventCodeClass used for Query EventCode"), guid("{39142400-C6A3-40fa-BADB-8A2652834100}")]
+class MyWMIEventCodeClass {
+  [key, read] String InstanceName;
+  [read] Boolean Active;
+  [WmiDataId(1), read, Description("Get EventCode")] uint32 EVCD;
+};
+
+[WMI, Dynamic, Provider("WmiProv"), Locale("MS\\0x409"), Description("MyWMIDataClass1 used for WMI Argument1"), guid("{49142400-C6A3-40fa-BADB-8A2652834100}")]
+class MyWMIARGClass1 {
+  [key, read] String InstanceName;
+  [read] Boolean Active;
+  [WmiDataId(1), read, write, Description("used for passing WMI Argumnts")] uint8 WAG1[256];
+};
+
+[WMI, Dynamic, Provider("WmiProv"), Locale("MS\\0x409"), Description("MyWMIPayloadClass1 used for WMI Payload1"), guid("{4A142400-C6A3-40fa-BADB-8A2652834100}")]
+class MyWMIPayloadClass1 {
+  [key, read] String InstanceName;
+  [read] Boolean Active;
+  [WmiDataId(1), read, write, Description("used for passing WMI Payloads")] uint8 WPD1[4096];
+};
+
+[WMI, Dynamic, Provider("WmiProv"), Locale("MS\\0x409"), Description("MyWMIDataClass2 used for WMI Argument2"), guid("{49142401-C6A3-40fa-BADB-8A2652834100}")]
+class MyWMIARGClass2 {
+  [key, read] String InstanceName;
+  [read] Boolean Active;
+  [WmiDataId(1), read, write, Description("used for passing WMI Argumnts")] uint8 WAG2[256];
+};
+
+[WMI, Dynamic, Provider("WmiProv"), Locale("MS\\0x409"), Description("MyWMIPayloadClass2 used for WMI Payload2"), guid("{4A142401-C6A3-40fa-BADB-8A2652834100}")]
+class MyWMIPayloadClass2 {
+  [key, read] String InstanceName;
+  [read] Boolean Active;
+  [WmiDataId(1), read, write, Description("used for passing WMI Payloads")] uint8 WPD2[4096];
+};
+
+[WMI, Dynamic, Provider("WmiProv"), Locale("MS\\0x409"), Description("MyWMIDataClass3 used for WMI Argument3"), guid("{49142402-C6A3-40fa-BADB-8A2652834100}")]
+class MyWMIARGClass3 {
+  [key, read] String InstanceName;
+  [read] Boolean Active;
+  [WmiDataId(1), read, write, Description("used for passing WMI Argumnts")] uint8 WAG3[256];
+};
+
+[WMI, Dynamic, Provider("WmiProv"), Locale("MS\\0x409"), Description("MyWMIPayloadClass3 used for WMI Payload3"), guid("{4A142402-C6A3-40fa-BADB-8A2652834100}")]
+class MyWMIPayloadClass3 {
+  [key, read] String InstanceName;
+  [read] Boolean Active;
+  [WmiDataId(1), read, write, Description("used for passing WMI Payloads")] uint8 WPD3[4096];
+};
+
+[WMI, Dynamic, Provider("WmiProv"), Locale("MS\\0x409"), Description("MyWMIDataClass4 used for WMI Argument4"), guid("{49142403-C6A3-40fa-BADB-8A2652834100}")]
+class MyWMIARGClass4 {
+  [key, read] String InstanceName;
+  [read] Boolean Active;
+  [WmiDataId(1), read, write, Description("used for passing WMI Argumnts")] uint8 WAG4[256];
+};
+
+[WMI, Dynamic, Provider("WmiProv"), Locale("MS\\0x409"), Description("MyWMIPayloadClass4 used for WMI Payload4"), guid("{4A142403-C6A3-40fa-BADB-8A2652834100}")]
+class MyWMIPayloadClass4 {
+  [key, read] String InstanceName;
+  [read] Boolean Active;
+  [WmiDataId(1), read, write, Description("used for passing WMI Payloads")] uint8 WPD4[4096];
+};
+
+[WMI, Dynamic, Provider("WmiProv"), Locale("MS\\0x409"), Description("MyWMIDataClass5 used for WMI Argument5"), guid("{49142404-C6A3-40fa-BADB-8A2652834100}")]
+class MyWMIARGClass5 {
+  [key, read] String InstanceName;
+  [read] Boolean Active;
+  [WmiDataId(1), read, write, Description("used for passing WMI Argumnts")] uint8 WAG5[256];
+};
+
+[WMI, Dynamic, Provider("WmiProv"), Locale("MS\\0x409"), Description("MyWMIPayloadClass5 used for WMI Payload5"), guid("{4A142404-C6A3-40fa-BADB-8A2652834100}")]
+class MyWMIPayloadClass5 {
+  [key, read] String InstanceName;
+  [read] Boolean Active;
+  [WmiDataId(1), read, write, Description("used for passing WMI Payloads")] uint8 WPD5[4096];
+};
+
+[WMI, Dynamic, Provider("WmiProv"), Locale("MS\\0x409"), Description("MyWMIDataClass6 used for WMI Argument6"), guid("{49142405-C6A3-40fa-BADB-8A2652834100}")]
+class MyWMIARGClass6 {
+  [key, read] String InstanceName;
+  [read] Boolean Active;
+  [WmiDataId(1), read, write, Description("used for passing WMI Argumnts")] uint8 WAG6[256];
+};
+
+[WMI, Dynamic, Provider("WmiProv"), Locale("MS\\0x409"), Description("MyWMIPayloadClass6 used for WMI Payload6"), guid("{4A142405-C6A3-40fa-BADB-8A2652834100}")]
+class MyWMIPayloadClass6 {
+  [key, read] String InstanceName;
+  [read] Boolean Active;
+  [WmiDataId(1), read, write, Description("used for passing WMI Payloads")] uint8 WPD6[4096];
+};
+
+[WMI, Dynamic, Provider("WmiProv"), Locale("MS\\0x409"), Description("MyWMIDataClass7 used for WMI Argument7"), guid("{49142406-C6A3-40fa-BADB-8A2652834100}")]
+class MyWMIARGClass7 {
+  [key, read] String InstanceName;
+  [read] Boolean Active;
+  [WmiDataId(1), read, write, Description("used for passing WMI Argumnts")] uint8 WAG7[256];
+};
+
+[WMI, Dynamic, Provider("WmiProv"), Locale("MS\\0x409"), Description("MyWMIPayloadClass7 used for WMI Payload7"), guid("{4A142406-C6A3-40fa-BADB-8A2652834100}")]
+class MyWMIPayloadClass7 {
+  [key, read] String InstanceName;
+  [read] Boolean Active;
+  [WmiDataId(1), read, write, Description("used for passing WMI Payloads")] uint8 WPD7[4096];
+};
+
+[WMI, Dynamic, Provider("WmiProv"), Locale("MS\\0x409"), Description("MyWMIDataClass8 used for WMI Argument8"), guid("{49142407-C6A3-40fa-BADB-8A2652834100}")]
+class MyWMIARGClass8 {
+  [key, read] String InstanceName;
+  [read] Boolean Active;
+  [WmiDataId(1), read, write, Description("used for passing WMI Argumnts")] uint8 WAG8[256];
+};
+
+[WMI, Dynamic, Provider("WmiProv"), Locale("MS\\0x409"), Description("MyWMIPayloadClass8 used for WMI Payload8"), guid("{4A142407-C6A3-40fa-BADB-8A2652834100}")]
+class MyWMIPayloadClass8 {
+  [key, read] String InstanceName;
+  [read] Boolean Active;
+  [WmiDataId(1), read, write, Description("used for passing WMI Payloads")] uint8 WPD8[4096];
+};
+
+[WMI, Dynamic, Provider("WmiProv"), Locale("MS\\0x409"), Description("MyWMIEventClass used for receiving events"), guid("{59142400-C6A3-40fa-BADB-8A2652834100}")]
+class MyWMIEventClass : WMIEvent {
+  [key, read] String InstanceName;
+  [read] Boolean Active;
+  [WmiDataId(1), read, write, Description("used for event")] uint32 Force;
+};
+
+[WMI, Dynamic, Provider("WmiProv"), Locale("MS\\0x409"), Description("MyWMIMethodClass used to call method"), guid("{69142400-C6A3-40fa-BADB-8A2652834100}")]
+class MyWMIMethodClass {
+  [key, read] String InstanceName;
+  [read] Boolean Active;
+
+  [WmiMethodId(1), Implemented, read, write, Description("Execute the WMI Generic Functions")] void MyFn1([in] uint32 Indx);
+};
+
+[WMI, Dynamic, Provider("WmiProv"), Locale("MS\\0x409"), Description("MyWMIInitClass used to call ACPI Method Init"), guid("{79142400-C6A3-40fa-BADB-8A2652834100}")]
+class MyWMIInitClass {
+  [key, read] String InstanceName;
+  [read] Boolean Active;
+
+  [WmiMethodId(1), Implemented, read, write, Description("Execute the Init Method")] void Init([in] uint32 Arg0);
+};
+
+[WMI, Dynamic, Provider("WmiProv"), Locale("MS\\0x409"), Description("MyWMIWatchDogClass used to call ACPI Method WDOG"), guid("{89142400-C6A3-40fa-BADB-8A2652834100}")]
+class MyWMIWatchDogClass {
+  [key, read] String InstanceName;
+  [read] Boolean Active;
+
+  [WmiMethodId(1), Implemented, read, write, Description("Execute the WDOG")] void WDOG([in] uint32 Arg0, [out] uint32 REST);
+};

@@ -1,0 +1,1688 @@
+Class 0:
+  Name=MyWMIEventCodeClass
+  Superclassname=(null)
+  Classflags=0
+  Namespace=root\default
+  Qualifier 0:
+    Name=WMI
+    Tosubclass=FALSE
+    Type=Boolean
+    Value=TRUE
+  Qualifier 1:
+    Name=Dynamic
+    Tosubclass=FALSE
+    Type=Boolean
+    Value=TRUE
+  Qualifier 2:
+    Name=Provider
+    Tosubclass=FALSE
+    Type=String
+    Value=WmiProv
+  Qualifier 3:
+    Name=Locale
+    Tosubclass=FALSE
+    Type=String
+    Value=MS\0x409
+  Qualifier 4:
+    Name=Description
+    Tosubclass=FALSE
+    Type=String
+    Value=MyWMIEventCodeClass used for Query EventCode
+  Qualifier 5:
+    Name=guid
+    Tosubclass=FALSE
+    Type=String
+    Value={39142400-C6A3-40fa-BADB-8A2652834100}
+  Variable 0:
+    Name=InstanceName
+    Type=Basic:String
+    Qualifier 0:
+      Name=key
+      Tosubclass=FALSE
+      Type=Boolean
+      Value=TRUE
+    Qualifier 1:
+      Name=read
+      Tosubclass=FALSE
+      Type=Boolean
+      Value=TRUE
+  Variable 1:
+    Name=Active
+    Type=Basic:Boolean
+    Qualifier 0:
+      Name=read
+      Tosubclass=FALSE
+      Type=Boolean
+      Value=TRUE
+  Variable 2:
+    Name=EVCD
+    Type=Basic:uint32
+    Qualifier 0:
+      Name=WmiDataId
+      Tosubclass=FALSE
+      Type=Numeric
+      Value=1
+    Qualifier 1:
+      Name=read
+      Tosubclass=FALSE
+      Type=Boolean
+      Value=TRUE
+    Qualifier 2:
+      Name=Description
+      Tosubclass=FALSE
+      Type=String
+      Value=Get EventCode
+Class 1:
+  Name=MyWMIARGClass1
+  Superclassname=(null)
+  Classflags=0
+  Namespace=root\default
+  Qualifier 0:
+    Name=WMI
+    Tosubclass=FALSE
+    Type=Boolean
+    Value=TRUE
+  Qualifier 1:
+    Name=Dynamic
+    Tosubclass=FALSE
+    Type=Boolean
+    Value=TRUE
+  Qualifier 2:
+    Name=Provider
+    Tosubclass=FALSE
+    Type=String
+    Value=WmiProv
+  Qualifier 3:
+    Name=Locale
+    Tosubclass=FALSE
+    Type=String
+    Value=MS\0x409
+  Qualifier 4:
+    Name=Description
+    Tosubclass=FALSE
+    Type=String
+    Value=MyWMIDataClass1 used for WMI Argument1
+  Qualifier 5:
+    Name=guid
+    Tosubclass=FALSE
+    Type=String
+    Value={49142400-C6A3-40fa-BADB-8A2652834100}
+  Variable 0:
+    Name=InstanceName
+    Type=Basic:String
+    Qualifier 0:
+      Name=key
+      Tosubclass=FALSE
+      Type=Boolean
+      Value=TRUE
+    Qualifier 1:
+      Name=read
+      Tosubclass=FALSE
+      Type=Boolean
+      Value=TRUE
+  Variable 1:
+    Name=Active
+    Type=Basic:Boolean
+    Qualifier 0:
+      Name=read
+      Tosubclass=FALSE
+      Type=Boolean
+      Value=TRUE
+  Variable 2:
+    Name=WAG1
+    Type=Basic:uint8[256]
+    Qualifier 0:
+      Name=WmiDataId
+      Tosubclass=FALSE
+      Type=Numeric
+      Value=1
+    Qualifier 1:
+      Name=read
+      Tosubclass=FALSE
+      Type=Boolean
+      Value=TRUE
+    Qualifier 2:
+      Name=write
+      Tosubclass=FALSE
+      Type=Boolean
+      Value=TRUE
+    Qualifier 3:
+      Name=Description
+      Tosubclass=FALSE
+      Type=String
+      Value=used for passing WMI Argumnts
+Class 2:
+  Name=MyWMIPayloadClass1
+  Superclassname=(null)
+  Classflags=0
+  Namespace=root\default
+  Qualifier 0:
+    Name=WMI
+    Tosubclass=FALSE
+    Type=Boolean
+    Value=TRUE
+  Qualifier 1:
+    Name=Dynamic
+    Tosubclass=FALSE
+    Type=Boolean
+    Value=TRUE
+  Qualifier 2:
+    Name=Provider
+    Tosubclass=FALSE
+    Type=String
+    Value=WmiProv
+  Qualifier 3:
+    Name=Locale
+    Tosubclass=FALSE
+    Type=String
+    Value=MS\0x409
+  Qualifier 4:
+    Name=Description
+    Tosubclass=FALSE
+    Type=String
+    Value=MyWMIPayloadClass1 used for WMI Payload1
+  Qualifier 5:
+    Name=guid
+    Tosubclass=FALSE
+    Type=String
+    Value={4A142400-C6A3-40fa-BADB-8A2652834100}
+  Variable 0:
+    Name=InstanceName
+    Type=Basic:String
+    Qualifier 0:
+      Name=key
+      Tosubclass=FALSE
+      Type=Boolean
+      Value=TRUE
+    Qualifier 1:
+      Name=read
+      Tosubclass=FALSE
+      Type=Boolean
+      Value=TRUE
+  Variable 1:
+    Name=Active
+    Type=Basic:Boolean
+    Qualifier 0:
+      Name=read
+      Tosubclass=FALSE
+      Type=Boolean
+      Value=TRUE
+  Variable 2:
+    Name=WPD1
+    Type=Basic:uint8[4096]
+    Qualifier 0:
+      Name=WmiDataId
+      Tosubclass=FALSE
+      Type=Numeric
+      Value=1
+    Qualifier 1:
+      Name=read
+      Tosubclass=FALSE
+      Type=Boolean
+      Value=TRUE
+    Qualifier 2:
+      Name=write
+      Tosubclass=FALSE
+      Type=Boolean
+      Value=TRUE
+    Qualifier 3:
+      Name=Description
+      Tosubclass=FALSE
+      Type=String
+      Value=used for passing WMI Payloads
+Class 3:
+  Name=MyWMIARGClass2
+  Superclassname=(null)
+  Classflags=0
+  Namespace=root\default
+  Qualifier 0:
+    Name=WMI
+    Tosubclass=FALSE
+    Type=Boolean
+    Value=TRUE
+  Qualifier 1:
+    Name=Dynamic
+    Tosubclass=FALSE
+    Type=Boolean
+    Value=TRUE
+  Qualifier 2:
+    Name=Provider
+    Tosubclass=FALSE
+    Type=String
+    Value=WmiProv
+  Qualifier 3:
+    Name=Locale
+    Tosubclass=FALSE
+    Type=String
+    Value=MS\0x409
+  Qualifier 4:
+    Name=Description
+    Tosubclass=FALSE
+    Type=String
+    Value=MyWMIDataClass2 used for WMI Argument2
+  Qualifier 5:
+    Name=guid
+    Tosubclass=FALSE
+    Type=String
+    Value={49142401-C6A3-40fa-BADB-8A2652834100}
+  Variable 0:
+    Name=InstanceName
+    Type=Basic:String
+    Qualifier 0:
+      Name=key
+      Tosubclass=FALSE
+      Type=Boolean
+      Value=TRUE
+    Qualifier 1:
+      Name=read
+      Tosubclass=FALSE
+      Type=Boolean
+      Value=TRUE
+  Variable 1:
+    Name=Active
+    Type=Basic:Boolean
+    Qualifier 0:
+      Name=read
+      Tosubclass=FALSE
+      Type=Boolean
+      Value=TRUE
+  Variable 2:
+    Name=WAG2
+    Type=Basic:uint8[256]
+    Qualifier 0:
+      Name=WmiDataId
+      Tosubclass=FALSE
+      Type=Numeric
+      Value=1
+    Qualifier 1:
+      Name=read
+      Tosubclass=FALSE
+      Type=Boolean
+      Value=TRUE
+    Qualifier 2:
+      Name=write
+      Tosubclass=FALSE
+      Type=Boolean
+      Value=TRUE
+    Qualifier 3:
+      Name=Description
+      Tosubclass=FALSE
+      Type=String
+      Value=used for passing WMI Argumnts
+Class 4:
+  Name=MyWMIPayloadClass2
+  Superclassname=(null)
+  Classflags=0
+  Namespace=root\default
+  Qualifier 0:
+    Name=WMI
+    Tosubclass=FALSE
+    Type=Boolean
+    Value=TRUE
+  Qualifier 1:
+    Name=Dynamic
+    Tosubclass=FALSE
+    Type=Boolean
+    Value=TRUE
+  Qualifier 2:
+    Name=Provider
+    Tosubclass=FALSE
+    Type=String
+    Value=WmiProv
+  Qualifier 3:
+    Name=Locale
+    Tosubclass=FALSE
+    Type=String
+    Value=MS\0x409
+  Qualifier 4:
+    Name=Description
+    Tosubclass=FALSE
+    Type=String
+    Value=MyWMIPayloadClass2 used for WMI Payload2
+  Qualifier 5:
+    Name=guid
+    Tosubclass=FALSE
+    Type=String
+    Value={4A142401-C6A3-40fa-BADB-8A2652834100}
+  Variable 0:
+    Name=InstanceName
+    Type=Basic:String
+    Qualifier 0:
+      Name=key
+      Tosubclass=FALSE
+      Type=Boolean
+      Value=TRUE
+    Qualifier 1:
+      Name=read
+      Tosubclass=FALSE
+      Type=Boolean
+      Value=TRUE
+  Variable 1:
+    Name=Active
+    Type=Basic:Boolean
+    Qualifier 0:
+      Name=read
+      Tosubclass=FALSE
+      Type=Boolean
+      Value=TRUE
+  Variable 2:
+    Name=WPD2
+    Type=Basic:uint8[4096]
+    Qualifier 0:
+      Name=WmiDataId
+      Tosubclass=FALSE
+      Type=Numeric
+      Value=1
+    Qualifier 1:
+      Name=read
+      Tosubclass=FALSE
+      Type=Boolean
+      Value=TRUE
+    Qualifier 2:
+      Name=write
+      Tosubclass=FALSE
+      Type=Boolean
+      Value=TRUE
+    Qualifier 3:
+      Name=Description
+      Tosubclass=FALSE
+      Type=String
+      Value=used for passing WMI Payloads
+Class 5:
+  Name=MyWMIARGClass3
+  Superclassname=(null)
+  Classflags=0
+  Namespace=root\default
+  Qualifier 0:
+    Name=WMI
+    Tosubclass=FALSE
+    Type=Boolean
+    Value=TRUE
+  Qualifier 1:
+    Name=Dynamic
+    Tosubclass=FALSE
+    Type=Boolean
+    Value=TRUE
+  Qualifier 2:
+    Name=Provider
+    Tosubclass=FALSE
+    Type=String
+    Value=WmiProv
+  Qualifier 3:
+    Name=Locale
+    Tosubclass=FALSE
+    Type=String
+    Value=MS\0x409
+  Qualifier 4:
+    Name=Description
+    Tosubclass=FALSE
+    Type=String
+    Value=MyWMIDataClass3 used for WMI Argument3
+  Qualifier 5:
+    Name=guid
+    Tosubclass=FALSE
+    Type=String
+    Value={49142402-C6A3-40fa-BADB-8A2652834100}
+  Variable 0:
+    Name=InstanceName
+    Type=Basic:String
+    Qualifier 0:
+      Name=key
+      Tosubclass=FALSE
+      Type=Boolean
+      Value=TRUE
+    Qualifier 1:
+      Name=read
+      Tosubclass=FALSE
+      Type=Boolean
+      Value=TRUE
+  Variable 1:
+    Name=Active
+    Type=Basic:Boolean
+    Qualifier 0:
+      Name=read
+      Tosubclass=FALSE
+      Type=Boolean
+      Value=TRUE
+  Variable 2:
+    Name=WAG3
+    Type=Basic:uint8[256]
+    Qualifier 0:
+      Name=WmiDataId
+      Tosubclass=FALSE
+      Type=Numeric
+      Value=1
+    Qualifier 1:
+      Name=read
+      Tosubclass=FALSE
+      Type=Boolean
+      Value=TRUE
+    Qualifier 2:
+      Name=write
+      Tosubclass=FALSE
+      Type=Boolean
+      Value=TRUE
+    Qualifier 3:
+      Name=Description
+      Tosubclass=FALSE
+      Type=String
+      Value=used for passing WMI Argumnts
+Class 6:
+  Name=MyWMIPayloadClass3
+  Superclassname=(null)
+  Classflags=0
+  Namespace=root\default
+  Qualifier 0:
+    Name=WMI
+    Tosubclass=FALSE
+    Type=Boolean
+    Value=TRUE
+  Qualifier 1:
+    Name=Dynamic
+    Tosubclass=FALSE
+    Type=Boolean
+    Value=TRUE
+  Qualifier 2:
+    Name=Provider
+    Tosubclass=FALSE
+    Type=String
+    Value=WmiProv
+  Qualifier 3:
+    Name=Locale
+    Tosubclass=FALSE
+    Type=String
+    Value=MS\0x409
+  Qualifier 4:
+    Name=Description
+    Tosubclass=FALSE
+    Type=String
+    Value=MyWMIPayloadClass3 used for WMI Payload3
+  Qualifier 5:
+    Name=guid
+    Tosubclass=FALSE
+    Type=String
+    Value={4A142402-C6A3-40fa-BADB-8A2652834100}
+  Variable 0:
+    Name=InstanceName
+    Type=Basic:String
+    Qualifier 0:
+      Name=key
+      Tosubclass=FALSE
+      Type=Boolean
+      Value=TRUE
+    Qualifier 1:
+      Name=read
+      Tosubclass=FALSE
+      Type=Boolean
+      Value=TRUE
+  Variable 1:
+    Name=Active
+    Type=Basic:Boolean
+    Qualifier 0:
+      Name=read
+      Tosubclass=FALSE
+      Type=Boolean
+      Value=TRUE
+  Variable 2:
+    Name=WPD3
+    Type=Basic:uint8[4096]
+    Qualifier 0:
+      Name=WmiDataId
+      Tosubclass=FALSE
+      Type=Numeric
+      Value=1
+    Qualifier 1:
+      Name=read
+      Tosubclass=FALSE
+      Type=Boolean
+      Value=TRUE
+    Qualifier 2:
+      Name=write
+      Tosubclass=FALSE
+      Type=Boolean
+      Value=TRUE
+    Qualifier 3:
+      Name=Description
+      Tosubclass=FALSE
+      Type=String
+      Value=used for passing WMI Payloads
+Class 7:
+  Name=MyWMIARGClass4
+  Superclassname=(null)
+  Classflags=0
+  Namespace=root\default
+  Qualifier 0:
+    Name=WMI
+    Tosubclass=FALSE
+    Type=Boolean
+    Value=TRUE
+  Qualifier 1:
+    Name=Dynamic
+    Tosubclass=FALSE
+    Type=Boolean
+    Value=TRUE
+  Qualifier 2:
+    Name=Provider
+    Tosubclass=FALSE
+    Type=String
+    Value=WmiProv
+  Qualifier 3:
+    Name=Locale
+    Tosubclass=FALSE
+    Type=String
+    Value=MS\0x409
+  Qualifier 4:
+    Name=Description
+    Tosubclass=FALSE
+    Type=String
+    Value=MyWMIDataClass4 used for WMI Argument4
+  Qualifier 5:
+    Name=guid
+    Tosubclass=FALSE
+    Type=String
+    Value={49142403-C6A3-40fa-BADB-8A2652834100}
+  Variable 0:
+    Name=InstanceName
+    Type=Basic:String
+    Qualifier 0:
+      Name=key
+      Tosubclass=FALSE
+      Type=Boolean
+      Value=TRUE
+    Qualifier 1:
+      Name=read
+      Tosubclass=FALSE
+      Type=Boolean
+      Value=TRUE
+  Variable 1:
+    Name=Active
+    Type=Basic:Boolean
+    Qualifier 0:
+      Name=read
+      Tosubclass=FALSE
+      Type=Boolean
+      Value=TRUE
+  Variable 2:
+    Name=WAG4
+    Type=Basic:uint8[256]
+    Qualifier 0:
+      Name=WmiDataId
+      Tosubclass=FALSE
+      Type=Numeric
+      Value=1
+    Qualifier 1:
+      Name=read
+      Tosubclass=FALSE
+      Type=Boolean
+      Value=TRUE
+    Qualifier 2:
+      Name=write
+      Tosubclass=FALSE
+      Type=Boolean
+      Value=TRUE
+    Qualifier 3:
+      Name=Description
+      Tosubclass=FALSE
+      Type=String
+      Value=used for passing WMI Argumnts
+Class 8:
+  Name=MyWMIPayloadClass4
+  Superclassname=(null)
+  Classflags=0
+  Namespace=root\default
+  Qualifier 0:
+    Name=WMI
+    Tosubclass=FALSE
+    Type=Boolean
+    Value=TRUE
+  Qualifier 1:
+    Name=Dynamic
+    Tosubclass=FALSE
+    Type=Boolean
+    Value=TRUE
+  Qualifier 2:
+    Name=Provider
+    Tosubclass=FALSE
+    Type=String
+    Value=WmiProv
+  Qualifier 3:
+    Name=Locale
+    Tosubclass=FALSE
+    Type=String
+    Value=MS\0x409
+  Qualifier 4:
+    Name=Description
+    Tosubclass=FALSE
+    Type=String
+    Value=MyWMIPayloadClass4 used for WMI Payload4
+  Qualifier 5:
+    Name=guid
+    Tosubclass=FALSE
+    Type=String
+    Value={4A142403-C6A3-40fa-BADB-8A2652834100}
+  Variable 0:
+    Name=InstanceName
+    Type=Basic:String
+    Qualifier 0:
+      Name=key
+      Tosubclass=FALSE
+      Type=Boolean
+      Value=TRUE
+    Qualifier 1:
+      Name=read
+      Tosubclass=FALSE
+      Type=Boolean
+      Value=TRUE
+  Variable 1:
+    Name=Active
+    Type=Basic:Boolean
+    Qualifier 0:
+      Name=read
+      Tosubclass=FALSE
+      Type=Boolean
+      Value=TRUE
+  Variable 2:
+    Name=WPD4
+    Type=Basic:uint8[4096]
+    Qualifier 0:
+      Name=WmiDataId
+      Tosubclass=FALSE
+      Type=Numeric
+      Value=1
+    Qualifier 1:
+      Name=read
+      Tosubclass=FALSE
+      Type=Boolean
+      Value=TRUE
+    Qualifier 2:
+      Name=write
+      Tosubclass=FALSE
+      Type=Boolean
+      Value=TRUE
+    Qualifier 3:
+      Name=Description
+      Tosubclass=FALSE
+      Type=String
+      Value=used for passing WMI Payloads
+Class 9:
+  Name=MyWMIARGClass5
+  Superclassname=(null)
+  Classflags=0
+  Namespace=root\default
+  Qualifier 0:
+    Name=WMI
+    Tosubclass=FALSE
+    Type=Boolean
+    Value=TRUE
+  Qualifier 1:
+    Name=Dynamic
+    Tosubclass=FALSE
+    Type=Boolean
+    Value=TRUE
+  Qualifier 2:
+    Name=Provider
+    Tosubclass=FALSE
+    Type=String
+    Value=WmiProv
+  Qualifier 3:
+    Name=Locale
+    Tosubclass=FALSE
+    Type=String
+    Value=MS\0x409
+  Qualifier 4:
+    Name=Description
+    Tosubclass=FALSE
+    Type=String
+    Value=MyWMIDataClass5 used for WMI Argument5
+  Qualifier 5:
+    Name=guid
+    Tosubclass=FALSE
+    Type=String
+    Value={49142404-C6A3-40fa-BADB-8A2652834100}
+  Variable 0:
+    Name=InstanceName
+    Type=Basic:String
+    Qualifier 0:
+      Name=key
+      Tosubclass=FALSE
+      Type=Boolean
+      Value=TRUE
+    Qualifier 1:
+      Name=read
+      Tosubclass=FALSE
+      Type=Boolean
+      Value=TRUE
+  Variable 1:
+    Name=Active
+    Type=Basic:Boolean
+    Qualifier 0:
+      Name=read
+      Tosubclass=FALSE
+      Type=Boolean
+      Value=TRUE
+  Variable 2:
+    Name=WAG5
+    Type=Basic:uint8[256]
+    Qualifier 0:
+      Name=WmiDataId
+      Tosubclass=FALSE
+      Type=Numeric
+      Value=1
+    Qualifier 1:
+      Name=read
+      Tosubclass=FALSE
+      Type=Boolean
+      Value=TRUE
+    Qualifier 2:
+      Name=write
+      Tosubclass=FALSE
+      Type=Boolean
+      Value=TRUE
+    Qualifier 3:
+      Name=Description
+      Tosubclass=FALSE
+      Type=String
+      Value=used for passing WMI Argumnts
+Class 10:
+  Name=MyWMIPayloadClass5
+  Superclassname=(null)
+  Classflags=0
+  Namespace=root\default
+  Qualifier 0:
+    Name=WMI
+    Tosubclass=FALSE
+    Type=Boolean
+    Value=TRUE
+  Qualifier 1:
+    Name=Dynamic
+    Tosubclass=FALSE
+    Type=Boolean
+    Value=TRUE
+  Qualifier 2:
+    Name=Provider
+    Tosubclass=FALSE
+    Type=String
+    Value=WmiProv
+  Qualifier 3:
+    Name=Locale
+    Tosubclass=FALSE
+    Type=String
+    Value=MS\0x409
+  Qualifier 4:
+    Name=Description
+    Tosubclass=FALSE
+    Type=String
+    Value=MyWMIPayloadClass5 used for WMI Payload5
+  Qualifier 5:
+    Name=guid
+    Tosubclass=FALSE
+    Type=String
+    Value={4A142404-C6A3-40fa-BADB-8A2652834100}
+  Variable 0:
+    Name=InstanceName
+    Type=Basic:String
+    Qualifier 0:
+      Name=key
+      Tosubclass=FALSE
+      Type=Boolean
+      Value=TRUE
+    Qualifier 1:
+      Name=read
+      Tosubclass=FALSE
+      Type=Boolean
+      Value=TRUE
+  Variable 1:
+    Name=Active
+    Type=Basic:Boolean
+    Qualifier 0:
+      Name=read
+      Tosubclass=FALSE
+      Type=Boolean
+      Value=TRUE
+  Variable 2:
+    Name=WPD5
+    Type=Basic:uint8[4096]
+    Qualifier 0:
+      Name=WmiDataId
+      Tosubclass=FALSE
+      Type=Numeric
+      Value=1
+    Qualifier 1:
+      Name=read
+      Tosubclass=FALSE
+      Type=Boolean
+      Value=TRUE
+    Qualifier 2:
+      Name=write
+      Tosubclass=FALSE
+      Type=Boolean
+      Value=TRUE
+    Qualifier 3:
+      Name=Description
+      Tosubclass=FALSE
+      Type=String
+      Value=used for passing WMI Payloads
+Class 11:
+  Name=MyWMIARGClass6
+  Superclassname=(null)
+  Classflags=0
+  Namespace=root\default
+  Qualifier 0:
+    Name=WMI
+    Tosubclass=FALSE
+    Type=Boolean
+    Value=TRUE
+  Qualifier 1:
+    Name=Dynamic
+    Tosubclass=FALSE
+    Type=Boolean
+    Value=TRUE
+  Qualifier 2:
+    Name=Provider
+    Tosubclass=FALSE
+    Type=String
+    Value=WmiProv
+  Qualifier 3:
+    Name=Locale
+    Tosubclass=FALSE
+    Type=String
+    Value=MS\0x409
+  Qualifier 4:
+    Name=Description
+    Tosubclass=FALSE
+    Type=String
+    Value=MyWMIDataClass6 used for WMI Argument6
+  Qualifier 5:
+    Name=guid
+    Tosubclass=FALSE
+    Type=String
+    Value={49142405-C6A3-40fa-BADB-8A2652834100}
+  Variable 0:
+    Name=InstanceName
+    Type=Basic:String
+    Qualifier 0:
+      Name=key
+      Tosubclass=FALSE
+      Type=Boolean
+      Value=TRUE
+    Qualifier 1:
+      Name=read
+      Tosubclass=FALSE
+      Type=Boolean
+      Value=TRUE
+  Variable 1:
+    Name=Active
+    Type=Basic:Boolean
+    Qualifier 0:
+      Name=read
+      Tosubclass=FALSE
+      Type=Boolean
+      Value=TRUE
+  Variable 2:
+    Name=WAG6
+    Type=Basic:uint8[256]
+    Qualifier 0:
+      Name=WmiDataId
+      Tosubclass=FALSE
+      Type=Numeric
+      Value=1
+    Qualifier 1:
+      Name=read
+      Tosubclass=FALSE
+      Type=Boolean
+      Value=TRUE
+    Qualifier 2:
+      Name=write
+      Tosubclass=FALSE
+      Type=Boolean
+      Value=TRUE
+    Qualifier 3:
+      Name=Description
+      Tosubclass=FALSE
+      Type=String
+      Value=used for passing WMI Argumnts
+Class 12:
+  Name=MyWMIPayloadClass6
+  Superclassname=(null)
+  Classflags=0
+  Namespace=root\default
+  Qualifier 0:
+    Name=WMI
+    Tosubclass=FALSE
+    Type=Boolean
+    Value=TRUE
+  Qualifier 1:
+    Name=Dynamic
+    Tosubclass=FALSE
+    Type=Boolean
+    Value=TRUE
+  Qualifier 2:
+    Name=Provider
+    Tosubclass=FALSE
+    Type=String
+    Value=WmiProv
+  Qualifier 3:
+    Name=Locale
+    Tosubclass=FALSE
+    Type=String
+    Value=MS\0x409
+  Qualifier 4:
+    Name=Description
+    Tosubclass=FALSE
+    Type=String
+    Value=MyWMIPayloadClass6 used for WMI Payload6
+  Qualifier 5:
+    Name=guid
+    Tosubclass=FALSE
+    Type=String
+    Value={4A142405-C6A3-40fa-BADB-8A2652834100}
+  Variable 0:
+    Name=InstanceName
+    Type=Basic:String
+    Qualifier 0:
+      Name=key
+      Tosubclass=FALSE
+      Type=Boolean
+      Value=TRUE
+    Qualifier 1:
+      Name=read
+      Tosubclass=FALSE
+      Type=Boolean
+      Value=TRUE
+  Variable 1:
+    Name=Active
+    Type=Basic:Boolean
+    Qualifier 0:
+      Name=read
+      Tosubclass=FALSE
+      Type=Boolean
+      Value=TRUE
+  Variable 2:
+    Name=WPD6
+    Type=Basic:uint8[4096]
+    Qualifier 0:
+      Name=WmiDataId
+      Tosubclass=FALSE
+      Type=Numeric
+      Value=1
+    Qualifier 1:
+      Name=read
+      Tosubclass=FALSE
+      Type=Boolean
+      Value=TRUE
+    Qualifier 2:
+      Name=write
+      Tosubclass=FALSE
+      Type=Boolean
+      Value=TRUE
+    Qualifier 3:
+      Name=Description
+      Tosubclass=FALSE
+      Type=String
+      Value=used for passing WMI Payloads
+Class 13:
+  Name=MyWMIARGClass7
+  Superclassname=(null)
+  Classflags=0
+  Namespace=root\default
+  Qualifier 0:
+    Name=WMI
+    Tosubclass=FALSE
+    Type=Boolean
+    Value=TRUE
+  Qualifier 1:
+    Name=Dynamic
+    Tosubclass=FALSE
+    Type=Boolean
+    Value=TRUE
+  Qualifier 2:
+    Name=Provider
+    Tosubclass=FALSE
+    Type=String
+    Value=WmiProv
+  Qualifier 3:
+    Name=Locale
+    Tosubclass=FALSE
+    Type=String
+    Value=MS\0x409
+  Qualifier 4:
+    Name=Description
+    Tosubclass=FALSE
+    Type=String
+    Value=MyWMIDataClass7 used for WMI Argument7
+  Qualifier 5:
+    Name=guid
+    Tosubclass=FALSE
+    Type=String
+    Value={49142406-C6A3-40fa-BADB-8A2652834100}
+  Variable 0:
+    Name=InstanceName
+    Type=Basic:String
+    Qualifier 0:
+      Name=key
+      Tosubclass=FALSE
+      Type=Boolean
+      Value=TRUE
+    Qualifier 1:
+      Name=read
+      Tosubclass=FALSE
+      Type=Boolean
+      Value=TRUE
+  Variable 1:
+    Name=Active
+    Type=Basic:Boolean
+    Qualifier 0:
+      Name=read
+      Tosubclass=FALSE
+      Type=Boolean
+      Value=TRUE
+  Variable 2:
+    Name=WAG7
+    Type=Basic:uint8[256]
+    Qualifier 0:
+      Name=WmiDataId
+      Tosubclass=FALSE
+      Type=Numeric
+      Value=1
+    Qualifier 1:
+      Name=read
+      Tosubclass=FALSE
+      Type=Boolean
+      Value=TRUE
+    Qualifier 2:
+      Name=write
+      Tosubclass=FALSE
+      Type=Boolean
+      Value=TRUE
+    Qualifier 3:
+      Name=Description
+      Tosubclass=FALSE
+      Type=String
+      Value=used for passing WMI Argumnts
+Class 14:
+  Name=MyWMIPayloadClass7
+  Superclassname=(null)
+  Classflags=0
+  Namespace=root\default
+  Qualifier 0:
+    Name=WMI
+    Tosubclass=FALSE
+    Type=Boolean
+    Value=TRUE
+  Qualifier 1:
+    Name=Dynamic
+    Tosubclass=FALSE
+    Type=Boolean
+    Value=TRUE
+  Qualifier 2:
+    Name=Provider
+    Tosubclass=FALSE
+    Type=String
+    Value=WmiProv
+  Qualifier 3:
+    Name=Locale
+    Tosubclass=FALSE
+    Type=String
+    Value=MS\0x409
+  Qualifier 4:
+    Name=Description
+    Tosubclass=FALSE
+    Type=String
+    Value=MyWMIPayloadClass7 used for WMI Payload7
+  Qualifier 5:
+    Name=guid
+    Tosubclass=FALSE
+    Type=String
+    Value={4A142406-C6A3-40fa-BADB-8A2652834100}
+  Variable 0:
+    Name=InstanceName
+    Type=Basic:String
+    Qualifier 0:
+      Name=key
+      Tosubclass=FALSE
+      Type=Boolean
+      Value=TRUE
+    Qualifier 1:
+      Name=read
+      Tosubclass=FALSE
+      Type=Boolean
+      Value=TRUE
+  Variable 1:
+    Name=Active
+    Type=Basic:Boolean
+    Qualifier 0:
+      Name=read
+      Tosubclass=FALSE
+      Type=Boolean
+      Value=TRUE
+  Variable 2:
+    Name=WPD7
+    Type=Basic:uint8[4096]
+    Qualifier 0:
+      Name=WmiDataId
+      Tosubclass=FALSE
+      Type=Numeric
+      Value=1
+    Qualifier 1:
+      Name=read
+      Tosubclass=FALSE
+      Type=Boolean
+      Value=TRUE
+    Qualifier 2:
+      Name=write
+      Tosubclass=FALSE
+      Type=Boolean
+      Value=TRUE
+    Qualifier 3:
+      Name=Description
+      Tosubclass=FALSE
+      Type=String
+      Value=used for passing WMI Payloads
+Class 15:
+  Name=MyWMIARGClass8
+  Superclassname=(null)
+  Classflags=0
+  Namespace=root\default
+  Qualifier 0:
+    Name=WMI
+    Tosubclass=FALSE
+    Type=Boolean
+    Value=TRUE
+  Qualifier 1:
+    Name=Dynamic
+    Tosubclass=FALSE
+    Type=Boolean
+    Value=TRUE
+  Qualifier 2:
+    Name=Provider
+    Tosubclass=FALSE
+    Type=String
+    Value=WmiProv
+  Qualifier 3:
+    Name=Locale
+    Tosubclass=FALSE
+    Type=String
+    Value=MS\0x409
+  Qualifier 4:
+    Name=Description
+    Tosubclass=FALSE
+    Type=String
+    Value=MyWMIDataClass8 used for WMI Argument8
+  Qualifier 5:
+    Name=guid
+    Tosubclass=FALSE
+    Type=String
+    Value={49142407-C6A3-40fa-BADB-8A2652834100}
+  Variable 0:
+    Name=InstanceName
+    Type=Basic:String
+    Qualifier 0:
+      Name=key
+      Tosubclass=FALSE
+      Type=Boolean
+      Value=TRUE
+    Qualifier 1:
+      Name=read
+      Tosubclass=FALSE
+      Type=Boolean
+      Value=TRUE
+  Variable 1:
+    Name=Active
+    Type=Basic:Boolean
+    Qualifier 0:
+      Name=read
+      Tosubclass=FALSE
+      Type=Boolean
+      Value=TRUE
+  Variable 2:
+    Name=WAG8
+    Type=Basic:uint8[256]
+    Qualifier 0:
+      Name=WmiDataId
+      Tosubclass=FALSE
+      Type=Numeric
+      Value=1
+    Qualifier 1:
+      Name=read
+      Tosubclass=FALSE
+      Type=Boolean
+      Value=TRUE
+    Qualifier 2:
+      Name=write
+      Tosubclass=FALSE
+      Type=Boolean
+      Value=TRUE
+    Qualifier 3:
+      Name=Description
+      Tosubclass=FALSE
+      Type=String
+      Value=used for passing WMI Argumnts
+Class 16:
+  Name=MyWMIPayloadClass8
+  Superclassname=(null)
+  Classflags=0
+  Namespace=root\default
+  Qualifier 0:
+    Name=WMI
+    Tosubclass=FALSE
+    Type=Boolean
+    Value=TRUE
+  Qualifier 1:
+    Name=Dynamic
+    Tosubclass=FALSE
+    Type=Boolean
+    Value=TRUE
+  Qualifier 2:
+    Name=Provider
+    Tosubclass=FALSE
+    Type=String
+    Value=WmiProv
+  Qualifier 3:
+    Name=Locale
+    Tosubclass=FALSE
+    Type=String
+    Value=MS\0x409
+  Qualifier 4:
+    Name=Description
+    Tosubclass=FALSE
+    Type=String
+    Value=MyWMIPayloadClass8 used for WMI Payload8
+  Qualifier 5:
+    Name=guid
+    Tosubclass=FALSE
+    Type=String
+    Value={4A142407-C6A3-40fa-BADB-8A2652834100}
+  Variable 0:
+    Name=InstanceName
+    Type=Basic:String
+    Qualifier 0:
+      Name=key
+      Tosubclass=FALSE
+      Type=Boolean
+      Value=TRUE
+    Qualifier 1:
+      Name=read
+      Tosubclass=FALSE
+      Type=Boolean
+      Value=TRUE
+  Variable 1:
+    Name=Active
+    Type=Basic:Boolean
+    Qualifier 0:
+      Name=read
+      Tosubclass=FALSE
+      Type=Boolean
+      Value=TRUE
+  Variable 2:
+    Name=WPD8
+    Type=Basic:uint8[4096]
+    Qualifier 0:
+      Name=WmiDataId
+      Tosubclass=FALSE
+      Type=Numeric
+      Value=1
+    Qualifier 1:
+      Name=read
+      Tosubclass=FALSE
+      Type=Boolean
+      Value=TRUE
+    Qualifier 2:
+      Name=write
+      Tosubclass=FALSE
+      Type=Boolean
+      Value=TRUE
+    Qualifier 3:
+      Name=Description
+      Tosubclass=FALSE
+      Type=String
+      Value=used for passing WMI Payloads
+Class 17:
+  Name=MyWMIEventClass
+  Superclassname=WMIEvent
+  Classflags=0
+  Namespace=root\default
+  Qualifier 0:
+    Name=WMI
+    Tosubclass=FALSE
+    Type=Boolean
+    Value=TRUE
+  Qualifier 1:
+    Name=Dynamic
+    Tosubclass=FALSE
+    Type=Boolean
+    Value=TRUE
+  Qualifier 2:
+    Name=Provider
+    Tosubclass=FALSE
+    Type=String
+    Value=WmiProv
+  Qualifier 3:
+    Name=Locale
+    Tosubclass=FALSE
+    Type=String
+    Value=MS\0x409
+  Qualifier 4:
+    Name=Description
+    Tosubclass=FALSE
+    Type=String
+    Value=MyWMIEventClass used for receiving events
+  Qualifier 5:
+    Name=guid
+    Tosubclass=FALSE
+    Type=String
+    Value={59142400-C6A3-40fa-BADB-8A2652834100}
+  Variable 0:
+    Name=InstanceName
+    Type=Basic:String
+    Qualifier 0:
+      Name=key
+      Tosubclass=FALSE
+      Type=Boolean
+      Value=TRUE
+    Qualifier 1:
+      Name=read
+      Tosubclass=FALSE
+      Type=Boolean
+      Value=TRUE
+  Variable 1:
+    Name=Active
+    Type=Basic:Boolean
+    Qualifier 0:
+      Name=read
+      Tosubclass=FALSE
+      Type=Boolean
+      Value=TRUE
+  Variable 2:
+    Name=Force
+    Type=Basic:uint32
+    Qualifier 0:
+      Name=WmiDataId
+      Tosubclass=FALSE
+      Type=Numeric
+      Value=1
+    Qualifier 1:
+      Name=read
+      Tosubclass=FALSE
+      Type=Boolean
+      Value=TRUE
+    Qualifier 2:
+      Name=write
+      Tosubclass=FALSE
+      Type=Boolean
+      Value=TRUE
+    Qualifier 3:
+      Name=Description
+      Tosubclass=FALSE
+      Type=String
+      Value=used for event
+Class 18:
+  Name=MyWMIMethodClass
+  Superclassname=(null)
+  Classflags=0
+  Namespace=root\default
+  Qualifier 0:
+    Name=WMI
+    Tosubclass=FALSE
+    Type=Boolean
+    Value=TRUE
+  Qualifier 1:
+    Name=Dynamic
+    Tosubclass=FALSE
+    Type=Boolean
+    Value=TRUE
+  Qualifier 2:
+    Name=Provider
+    Tosubclass=FALSE
+    Type=String
+    Value=WmiProv
+  Qualifier 3:
+    Name=Locale
+    Tosubclass=FALSE
+    Type=String
+    Value=MS\0x409
+  Qualifier 4:
+    Name=Description
+    Tosubclass=FALSE
+    Type=String
+    Value=MyWMIMethodClass used to call method
+  Qualifier 5:
+    Name=guid
+    Tosubclass=FALSE
+    Type=String
+    Value={69142400-C6A3-40fa-BADB-8A2652834100}
+  Variable 0:
+    Name=InstanceName
+    Type=Basic:String
+    Qualifier 0:
+      Name=key
+      Tosubclass=FALSE
+      Type=Boolean
+      Value=TRUE
+    Qualifier 1:
+      Name=read
+      Tosubclass=FALSE
+      Type=Boolean
+      Value=TRUE
+  Variable 1:
+    Name=Active
+    Type=Basic:Boolean
+    Qualifier 0:
+      Name=read
+      Tosubclass=FALSE
+      Type=Boolean
+      Value=TRUE
+  Method 0:
+    Name=MyFn1
+    Qualifier 0:
+      Name=WmiMethodId
+      Tosubclass=FALSE
+      Type=Numeric
+      Value=1
+    Qualifier 1:
+      Name=Implemented
+      Tosubclass=FALSE
+      Type=Boolean
+      Value=TRUE
+    Qualifier 2:
+      Name=read
+      Tosubclass=FALSE
+      Type=Boolean
+      Value=TRUE
+    Qualifier 3:
+      Name=write
+      Tosubclass=FALSE
+      Type=Boolean
+      Value=TRUE
+    Qualifier 4:
+      Name=Description
+      Tosubclass=FALSE
+      Type=String
+      Value=Execute the WMI Generic Functions
+    Return value:
+      Type=Void
+    Parameter 0:
+      Direction=in
+      Name=Indx
+      Type=Basic:uint32
+Class 19:
+  Name=MyWMIInitClass
+  Superclassname=(null)
+  Classflags=0
+  Namespace=root\default
+  Qualifier 0:
+    Name=WMI
+    Tosubclass=FALSE
+    Type=Boolean
+    Value=TRUE
+  Qualifier 1:
+    Name=Dynamic
+    Tosubclass=FALSE
+    Type=Boolean
+    Value=TRUE
+  Qualifier 2:
+    Name=Provider
+    Tosubclass=FALSE
+    Type=String
+    Value=WmiProv
+  Qualifier 3:
+    Name=Locale
+    Tosubclass=FALSE
+    Type=String
+    Value=MS\0x409
+  Qualifier 4:
+    Name=Description
+    Tosubclass=FALSE
+    Type=String
+    Value=MyWMIInitClass used to call ACPI Method Init
+  Qualifier 5:
+    Name=guid
+    Tosubclass=FALSE
+    Type=String
+    Value={79142400-C6A3-40fa-BADB-8A2652834100}
+  Variable 0:
+    Name=InstanceName
+    Type=Basic:String
+    Qualifier 0:
+      Name=key
+      Tosubclass=FALSE
+      Type=Boolean
+      Value=TRUE
+    Qualifier 1:
+      Name=read
+      Tosubclass=FALSE
+      Type=Boolean
+      Value=TRUE
+  Variable 1:
+    Name=Active
+    Type=Basic:Boolean
+    Qualifier 0:
+      Name=read
+      Tosubclass=FALSE
+      Type=Boolean
+      Value=TRUE
+  Method 0:
+    Name=Init
+    Qualifier 0:
+      Name=WmiMethodId
+      Tosubclass=FALSE
+      Type=Numeric
+      Value=1
+    Qualifier 1:
+      Name=Implemented
+      Tosubclass=FALSE
+      Type=Boolean
+      Value=TRUE
+    Qualifier 2:
+      Name=read
+      Tosubclass=FALSE
+      Type=Boolean
+      Value=TRUE
+    Qualifier 3:
+      Name=write
+      Tosubclass=FALSE
+      Type=Boolean
+      Value=TRUE
+    Qualifier 4:
+      Name=Description
+      Tosubclass=FALSE
+      Type=String
+      Value=Execute the Init Method
+    Return value:
+      Type=Void
+    Parameter 0:
+      Direction=in
+      Name=Arg0
+      Type=Basic:uint32
+Class 20:
+  Name=MyWMIWatchDogClass
+  Superclassname=(null)
+  Classflags=0
+  Namespace=root\default
+  Qualifier 0:
+    Name=WMI
+    Tosubclass=FALSE
+    Type=Boolean
+    Value=TRUE
+  Qualifier 1:
+    Name=Dynamic
+    Tosubclass=FALSE
+    Type=Boolean
+    Value=TRUE
+  Qualifier 2:
+    Name=Provider
+    Tosubclass=FALSE
+    Type=String
+    Value=WmiProv
+  Qualifier 3:
+    Name=Locale
+    Tosubclass=FALSE
+    Type=String
+    Value=MS\0x409
+  Qualifier 4:
+    Name=Description
+    Tosubclass=FALSE
+    Type=String
+    Value=MyWMIWatchDogClass used to call ACPI Method WDOG
+  Qualifier 5:
+    Name=guid
+    Tosubclass=FALSE
+    Type=String
+    Value={89142400-C6A3-40fa-BADB-8A2652834100}
+  Variable 0:
+    Name=InstanceName
+    Type=Basic:String
+    Qualifier 0:
+      Name=key
+      Tosubclass=FALSE
+      Type=Boolean
+      Value=TRUE
+    Qualifier 1:
+      Name=read
+      Tosubclass=FALSE
+      Type=Boolean
+      Value=TRUE
+  Variable 1:
+    Name=Active
+    Type=Basic:Boolean
+    Qualifier 0:
+      Name=read
+      Tosubclass=FALSE
+      Type=Boolean
+      Value=TRUE
+  Method 0:
+    Name=WDOG
+    Qualifier 0:
+      Name=WmiMethodId
+      Tosubclass=FALSE
+      Type=Numeric
+      Value=1
+    Qualifier 1:
+      Name=Implemented
+      Tosubclass=FALSE
+      Type=Boolean
+      Value=TRUE
+    Qualifier 2:
+      Name=read
+      Tosubclass=FALSE
+      Type=Boolean
+      Value=TRUE
+    Qualifier 3:
+      Name=write
+      Tosubclass=FALSE
+      Type=Boolean
+      Value=TRUE
+    Qualifier 4:
+      Name=Description
+      Tosubclass=FALSE
+      Type=String
+      Value=Execute the WDOG
+    Return value:
+      Type=Void
+    Parameter 0:
+      Direction=in
+      Name=Arg0
+      Type=Basic:uint32
+    Parameter 1:
+      Direction=out
+      Name=REST
+      Type=Basic:uint32
